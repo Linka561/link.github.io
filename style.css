@@ -1,0 +1,158 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+img {}
+
+.rotate {
+  display: inline;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: 180px;
+  animation: rotation 10s infinite linear;
+}
+
+.rotate1 {
+  display: inline;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: 180px;
+  animation: rotation1 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation1 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-359deg);
+  }
+}
+
+.grönkärlek {
+  text-align: center;
+}
+
+body {
+  background-color: white;
+}
+
+.box {
+  background-color: #78be20;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 55px;
+  padding-bottom: 95px;
+}
+
+.bildruta {
+  background-color: #78be20;
+}
+
+.kermit {
+  margin: 0px;
+  padding: 0px;
+  height: 200px;
+  object-fit: fill;
+  width: 1350px;
+  display: inline;
+  text-align: center;
+  display: inline-block;
+  filter: blur(3px);
+  filter: opacity(0.4);
+}
+
+h1 {
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: bold;
+  color: #78be20;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-weight: 300;
+  font-family: 'Outfit', sans-serif;
+  color: black;
+  margin-top: 10px;
+}
+
+.första {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  display: block;
+}
+
+.andra {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  display: block;
+  padding-bottom: 30px;
+}
+
+.tredje {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  display: block;
+}
+
+.ellenP {
+  display: inline-block;
+  margin-right: auto;
+}
+
+.syskonen {
+  margin-top: -25px;
+  margin-bottom: 40px;
+  display: block;
+  float: right;
+  margin-left: auto;
+  margin-right: 170px;
+  animation: rotation 3s linear;
+  padding-left: 0;
+}
+
+ul li {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: white;
+  font-size: 60px;
+}
+
+ul li a:hover {
+  color: #006644;
+  transition: 0.7s;
+}
+
+.gröna {
+  color: #78be20;
+}
